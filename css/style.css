@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#hero {
+    
+    background-image: url(../heropandajs.jpg);
+    background-position: center;
+    background-color: #eee;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid rgb(248, 242, 243);
+    box-shadow: 0 0 15px rgb(251, 248, 249);
+    display: block;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    text-justify: center;
+    /*Styling för hero-bilden/sektionen */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 5px;
+    display: block;
+    border: 1px solid;
+}
+
+h1 {
+    color: rgb(1, 0, 0);
+    background-color: rgba(255, 255, 255, 0.584);
+    border-radius: 3px;
+    margin-top: 115px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+button {
+    background-color:rgb(218, 211, 198);
+    color: rgb(11, 11, 11);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #bebbb6;
+}
+
+#user-info {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(66, 65, 64);
+}
+
+.user-detail {
+    margin: 10px 0;
+}
+
+.user-image {
+    display: block;
+    margin: auto auto 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
